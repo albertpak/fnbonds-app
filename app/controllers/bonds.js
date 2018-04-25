@@ -1,11 +1,21 @@
 import Controller from "@ember/controller";
+import PapaParse from "papaparse";
 
 export default Controller.extend({
-  csvFileData: null,
+  csvData: null,
 
-  csvFileUploaded(csvFileData) {
-    console.log("outside:csvFileData", csvFileData);
+  setParsedData(result) {
+    this.csvData = result.data;
+  },
 
-    this.set("csvFileData", csvFileData);
+  csvFileUploaded(csvFile) {
+    PapaParse.parse(csvFile, {
+      download: true,
+      dynamicTyping: true,
+      header: true,
+      skipEmptyLines: true,
+      trimHeader: true,
+      complete: this.setParsedData
+    });
   }
 });
