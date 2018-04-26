@@ -1,23 +1,27 @@
 <thead>
-  <th>Accrued</th>
-  <th>Coupon</th>
-  <th>COV</th>
-  <th>Currency</th>
-  <th>CUSIP</th>
-  <th>Description</th>
-  <th>Dur</th>
-  <th>Market Value</th>
-  <th>Maturity</th>
-  <th>OAS</th>
-  <th>Par Value</th>
-  <th>PD</th>
-  <th>Price</th>
-  <th>Quality</th>
-  <th>Sector</th>
-  <th>Sprd Dur</th>
-  <th>Weight</th>
-  <th>Yield</th>
+  <tr>
+    <th>Accrued</th>
+    <th>Coupon</th>
+    <th>COV</th>
+    <th>Currency</th>
+    <th>CUSIP</th>
+    <th>Description</th>
+    <th>Dur</th>
+    <th>Market Value</th>
+    <th>Maturity</th>
+    <th>OAS</th>
+    <th>Par Value</th>
+    <th>PD</th>
+    <th>Price</th>
+    <th>Quality</th>
+    <th>Sector</th>
+    <th>Sprd Dur</th>
+    <th>Weight</th>
+    <th>Yield</th>
+  </tr>
 </thead>
-{{#each csvData as |row|}}
-  {{investment-row data=row}}
-{{/each}}
+<tbody>
+  {{#each csvData as |row|}}
+    {{investment-row data=row}}
+  {{/each}}
+</tbody>

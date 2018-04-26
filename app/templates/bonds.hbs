@@ -1,3 +1,10 @@
-{{file-upload csvFileUploaded=(action csvFileUploaded)}}
-
-{{investment-table csvData=csvData}}
+<div class="container-fluid">
+  <div class="row">
+    {{#unless csvData}}
+      <h5>File upload</h5>
+      {{file-upload csvFileUploaded=(action csvFileUploaded)}}
+    {{else}}
+      {{investment-table csvData=csvData}}
+    {{/unless}}
+  </div>
+</div>
