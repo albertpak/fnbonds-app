@@ -4,18 +4,19 @@ import PapaParse from "papaparse";
 export default Controller.extend({
   csvData: null,
 
-  setParsedData(result) {
-    this.csvData = result.data;
-  },
-
   csvFileUploaded(csvFile) {
+    const self = this;
+
     PapaParse.parse(csvFile, {
       download: true,
       dynamicTyping: true,
       header: true,
       skipEmptyLines: true,
       trimHeader: true,
-      complete: this.setParsedData
+
+      complete(result) {
+        self.set('csvData', result.data);
+      }
     });
   }
 });
