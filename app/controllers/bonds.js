@@ -8,9 +8,8 @@ export default Controller.extend({
     const self = this;
 
     PapaParse.parse(csvFile, {
-      download: true,
+      quoteChar: '"',
       dynamicTyping: true,
-      header: true,
       skipEmptyLines: true,
       trimHeader: true,
 
