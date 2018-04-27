@@ -25,11 +25,11 @@
     ember-cli-version-checker "^2.1.0"
 
 "@ember/test-helpers@^0.7.18":
-  version "0.7.21"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/@ember/test-helpers/-/test-helpers-0.7.21.tgz?dl=https://registry.yarnpkg.com/@ember/test-helpers/-/test-helpers-0.7.21.tgz#1bb6555e7d201d86800671a0ba64e70d3d23a3a0"
+  version "0.7.22"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/@ember/test-helpers/-/test-helpers-0.7.22.tgz?dl=https://registry.yarnpkg.com/@ember/test-helpers/-/test-helpers-0.7.22.tgz#f8a0fb23d85dec2e7e07ec6138f93e1868ae3619"
   dependencies:
     broccoli-funnel "^2.0.1"
-    ember-cli-babel "^6.10.0"
+    ember-cli-babel "^6.12.0"
     ember-cli-htmlbars-inline-precompile "^1.0.0"
 
 "@glimmer/compiler@^0.27.0":
@@ -111,8 +111,8 @@
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/@types/estree/-/estree-0.0.38.tgz?dl=https://registry.yarnpkg.com/@types/estree/-/estree-0.0.38.tgz#c1be40aa933723c608820a99a373a16d215a1ca2"
 
 "@types/node@^9.6.0":
-  version "9.6.6"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/@types/node/-/node-9.6.6.tgz?dl=https://registry.yarnpkg.com/@types/node/-/node-9.6.6.tgz#439b91f9caf3983cad2eef1e11f6bedcbf9431d2"
+  version "9.6.7"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/@types/node/-/node-9.6.7.tgz?dl=https://registry.yarnpkg.com/@types/node/-/node-9.6.7.tgz#5f3816d1db2155edcde1b2e3aa5d0e5c520cb564"
 
 abbrev@1:
   version "1.1.1"
@@ -496,8 +496,8 @@ babel-core@^5.0.0:
     try-resolve "^1.0.0"
 
 babel-core@^6.14.0, babel-core@^6.24.1, babel-core@^6.26.0:
-  version "6.26.0"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/babel-core/-/babel-core-6.26.0.tgz?dl=https://registry.yarnpkg.com/babel-core/-/babel-core-6.26.0.tgz#af32f78b31a6fcef119c87b0fd8d9753f03a0bb8"
+  version "6.26.2"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/babel-core/-/babel-core-6.26.2.tgz?dl=https://registry.yarnpkg.com/babel-core/-/babel-core-6.26.2.tgz#b67a120521dcd6baf1a2ecceeceb595e223da06c"
   dependencies:
     babel-code-frame "^6.26.0"
     babel-generator "^6.26.0"
@@ -509,15 +509,15 @@ babel-core@^6.14.0, babel-core@^6.24.1, babel-core@^6.26.0:
     babel-traverse "^6.26.0"
     babel-types "^6.26.0"
     babylon "^6.18.0"
-    convert-source-map "^1.5.0"
-    debug "^2.6.8"
+    convert-source-map "^1.5.1"
+    debug "^2.6.9"
     json5 "^0.5.1"
     lodash "^4.17.4"
     minimatch "^3.0.4"
     path-is-absolute "^1.0.1"
-    private "^0.1.7"
+    private "^0.1.8"
     slash "^1.0.0"
-    source-map "^0.5.6"
+    source-map "^0.5.7"
 
 babel-generator@^6.26.0:
   version "6.26.1"
@@ -866,8 +866,8 @@ babel-plugin-transform-es2015-modules-amd@^6.22.0, babel-plugin-transform-es2015
     babel-template "^6.24.1"
 
 babel-plugin-transform-es2015-modules-commonjs@^6.23.0, babel-plugin-transform-es2015-modules-commonjs@^6.24.1:
-  version "6.26.0"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/babel-plugin-transform-es2015-modules-commonjs/-/babel-plugin-transform-es2015-modules-commonjs-6.26.0.tgz?dl=https://registry.yarnpkg.com/babel-plugin-transform-es2015-modules-commonjs/-/babel-plugin-transform-es2015-modules-commonjs-6.26.0.tgz#0d8394029b7dc6abe1a97ef181e00758dd2e5d8a"
+  version "6.26.2"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/babel-plugin-transform-es2015-modules-commonjs/-/babel-plugin-transform-es2015-modules-commonjs-6.26.2.tgz?dl=https://registry.yarnpkg.com/babel-plugin-transform-es2015-modules-commonjs/-/babel-plugin-transform-es2015-modules-commonjs-6.26.2.tgz#58a793863a9e7ca870bdc5a881117ffac27db6f3"
   dependencies:
     babel-plugin-transform-strict-mode "^6.24.1"
     babel-runtime "^6.26.0"
@@ -1131,17 +1131,15 @@ basic-auth@~2.0.0:
   dependencies:
     safe-buffer "5.1.1"
 
-<<<<<<< HEAD
+batch-processor@^1.0.0:
+  version "1.0.0"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/batch-processor/-/batch-processor-1.0.0.tgz?dl=https://registry.yarnpkg.com/batch-processor/-/batch-processor-1.0.0.tgz#75c95c32b748e0850d10c2b168f6bdbe9891ace8"
+
 bcrypt-pbkdf@^1.0.0:
   version "1.0.1"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.1.tgz?dl=https://registry.yarnpkg.com/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.1.tgz#63bc5dcb61331b92bc05fd528953c33462a06f8d"
   dependencies:
     tweetnacl "^0.14.3"
-=======
-batch-processor@^1.0.0:
-  version "1.0.0"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/batch-processor/-/batch-processor-1.0.0.tgz?dl=https://registry.yarnpkg.com/batch-processor/-/batch-processor-1.0.0.tgz#75c95c32b748e0850d10c2b168f6bdbe9891ace8"
->>>>>>> wip light table
 
 better-assert@~1.0.0:
   version "1.0.2"
@@ -1165,17 +1163,15 @@ blob@0.0.4:
   version "0.0.4"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/blob/-/blob-0.0.4.tgz?dl=https://registry.yarnpkg.com/blob/-/blob-0.0.4.tgz#bcf13052ca54463f30f9fc7e95b9a47630a94921"
 
-<<<<<<< HEAD
 block-stream@*:
   version "0.0.9"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/block-stream/-/block-stream-0.0.9.tgz?dl=https://registry.yarnpkg.com/block-stream/-/block-stream-0.0.9.tgz#13ebfe778a03205cfe03751481ebb4b3300c126a"
   dependencies:
     inherits "~2.0.0"
-=======
+
 bluebird@^2.9.33:
   version "2.11.0"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/bluebird/-/bluebird-2.11.0.tgz?dl=https://registry.yarnpkg.com/bluebird/-/bluebird-2.11.0.tgz#534b9033c022c9579c56ba3b3e5a5caafbb650e1"
->>>>>>> wip light table
 
 bluebird@^3.1.1, bluebird@^3.4.6:
   version "3.5.1"
@@ -1508,9 +1504,6 @@ broccoli-lint-eslint@^4.2.1:
     lodash.defaultsdeep "^4.6.0"
     md5-hex "^2.0.0"
 
-<<<<<<< HEAD
-broccoli-merge-trees@^1.0.0, broccoli-merge-trees@^1.1.0:
-=======
 broccoli-merge-trees@1.1.1:
   version "1.1.1"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/broccoli-merge-trees/-/broccoli-merge-trees-1.1.1.tgz?dl=https://registry.yarnpkg.com/broccoli-merge-trees/-/broccoli-merge-trees-1.1.1.tgz#1e283d18c686da922bb91a80d7aac0d161388e21"
@@ -1523,8 +1516,7 @@ broccoli-merge-trees@1.1.1:
     rimraf "^2.4.3"
     symlink-or-copy "^1.0.0"
 
-broccoli-merge-trees@^1.0.0:
->>>>>>> wip light table
+broccoli-merge-trees@^1.0.0, broccoli-merge-trees@^1.1.0:
   version "1.2.4"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/broccoli-merge-trees/-/broccoli-merge-trees-1.2.4.tgz?dl=https://registry.yarnpkg.com/broccoli-merge-trees/-/broccoli-merge-trees-1.2.4.tgz#a001519bb5067f06589d91afa2942445a2d0fdb5"
   dependencies:
@@ -1603,18 +1595,6 @@ broccoli-rollup@^1.2.0:
     symlink-or-copy "^1.1.8"
     walk-sync "^0.3.1"
 
-<<<<<<< HEAD
-broccoli-sass-source-maps@^2.1.0:
-  version "2.2.0"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/broccoli-sass-source-maps/-/broccoli-sass-source-maps-2.2.0.tgz?dl=https://registry.yarnpkg.com/broccoli-sass-source-maps/-/broccoli-sass-source-maps-2.2.0.tgz#1f1a0794136152b096188638b59b42b17a4bdc68"
-  dependencies:
-    broccoli-caching-writer "^3.0.3"
-    include-path-searcher "^0.1.0"
-    mkdirp "^0.3.5"
-    node-sass "^4.7.2"
-    object-assign "^2.0.0"
-    rsvp "^3.0.6"
-=======
 broccoli-rollup@^2.0.0:
   version "2.1.0"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/broccoli-rollup/-/broccoli-rollup-2.1.0.tgz?dl=https://registry.yarnpkg.com/broccoli-rollup/-/broccoli-rollup-2.1.0.tgz#94d703625c24dbad2e57789508f63ccfcbb13c00"
@@ -1630,7 +1610,17 @@ broccoli-rollup@^2.0.0:
     rollup "^0.57.1"
     symlink-or-copy "^1.1.8"
     walk-sync "^0.3.1"
->>>>>>> wip light table
+
+broccoli-sass-source-maps@^2.1.0:
+  version "2.2.0"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/broccoli-sass-source-maps/-/broccoli-sass-source-maps-2.2.0.tgz?dl=https://registry.yarnpkg.com/broccoli-sass-source-maps/-/broccoli-sass-source-maps-2.2.0.tgz#1f1a0794136152b096188638b59b42b17a4bdc68"
+  dependencies:
+    broccoli-caching-writer "^3.0.3"
+    include-path-searcher "^0.1.0"
+    mkdirp "^0.3.5"
+    node-sass "^4.7.2"
+    object-assign "^2.0.0"
+    rsvp "^3.0.6"
 
 broccoli-slow-trees@^3.0.1:
   version "3.0.1"
@@ -1844,8 +1834,8 @@ chalk@^1.0.0, chalk@^1.1.1, chalk@^1.1.3:
     supports-color "^2.0.0"
 
 chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.3.1, chalk@^2.3.2:
-  version "2.4.0"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/chalk/-/chalk-2.4.0.tgz?dl=https://registry.yarnpkg.com/chalk/-/chalk-2.4.0.tgz#a060a297a6b57e15b61ca63ce84995daa0fe6e52"
+  version "2.4.1"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/chalk/-/chalk-2.4.1.tgz?dl=https://registry.yarnpkg.com/chalk/-/chalk-2.4.1.tgz#18c49ab16a037b6eb0152cc83e3471338215b66e"
   dependencies:
     ansi-styles "^3.2.1"
     escape-string-regexp "^1.0.5"
@@ -1955,7 +1945,6 @@ cliui@^2.1.0:
     right-align "^0.1.1"
     wordwrap "0.0.2"
 
-<<<<<<< HEAD
 cliui@^3.2.0:
   version "3.2.0"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/cliui/-/cliui-3.2.0.tgz?dl=https://registry.yarnpkg.com/cliui/-/cliui-3.2.0.tgz#120601537a916d29940f934da3b48d585a39213d"
@@ -1963,7 +1952,7 @@ cliui@^3.2.0:
     string-width "^1.0.1"
     strip-ansi "^3.0.1"
     wrap-ansi "^2.0.0"
-=======
+
 clone-response@1.0.2:
   version "1.0.2"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/clone-response/-/clone-response-1.0.2.tgz?dl=https://registry.yarnpkg.com/clone-response/-/clone-response-1.0.2.tgz#d1dc973920314df67fbeb94223b4ee350239e96b"
@@ -1973,15 +1962,14 @@ clone-response@1.0.2:
 clone@^0.2.0:
   version "0.2.0"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/clone/-/clone-0.2.0.tgz?dl=https://registry.yarnpkg.com/clone/-/clone-0.2.0.tgz#c6126a90ad4f72dbf5acdb243cc37724fe93fc1f"
->>>>>>> wip light table
 
 clone@^1.0.2:
   version "1.0.4"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/clone/-/clone-1.0.4.tgz?dl=https://registry.yarnpkg.com/clone/-/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
 
 clone@^2.0.0:
-  version "2.1.2"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/clone/-/clone-2.1.2.tgz?dl=https://registry.yarnpkg.com/clone/-/clone-2.1.2.tgz#1b7f4b9f591f1e8f83670401600345a02887435f"
+  version "2.1.1"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/clone/-/clone-2.1.1.tgz?dl=https://registry.yarnpkg.com/clone/-/clone-2.1.1.tgz#d217d1e961118e3ac9a4b8bba3285553bf647cdb"
 
 co@^4.6.0:
   version "4.6.0"
@@ -2012,17 +2000,15 @@ colors@1.0.3:
   version "1.0.3"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/colors/-/colors-1.0.3.tgz?dl=https://registry.yarnpkg.com/colors/-/colors-1.0.3.tgz#0433f44d809680fdeb60ed260f1b0c262e82a40b"
 
-<<<<<<< HEAD
+colors@^1.1.2:
+  version "1.2.1"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/colors/-/colors-1.2.1.tgz?dl=https://registry.yarnpkg.com/colors/-/colors-1.2.1.tgz#f4a3d302976aaf042356ba1ade3b1a2c62d9d794"
+
 combined-stream@1.0.6, combined-stream@^1.0.5, combined-stream@~1.0.5:
   version "1.0.6"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/combined-stream/-/combined-stream-1.0.6.tgz?dl=https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.6.tgz#723e7df6e801ac5613113a7e445a9b69cb632818"
   dependencies:
     delayed-stream "~1.0.0"
-=======
-colors@^1.1.2:
-  version "1.2.1"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/colors/-/colors-1.2.1.tgz?dl=https://registry.yarnpkg.com/colors/-/colors-1.2.1.tgz#f4a3d302976aaf042356ba1ade3b1a2c62d9d794"
->>>>>>> wip light table
 
 commander@2.12.2:
   version "2.12.2"
@@ -2034,11 +2020,7 @@ commander@2.8.x:
   dependencies:
     graceful-readlink ">= 1.0.0"
 
-<<<<<<< HEAD
-commander@^2.6.0, commander@^2.9.0:
-=======
-commander@^2.5.0, commander@^2.6.0:
->>>>>>> wip light table
+commander@^2.5.0, commander@^2.6.0, commander@^2.9.0:
   version "2.15.1"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/commander/-/commander-2.15.1.tgz?dl=https://registry.yarnpkg.com/commander/-/commander-2.15.1.tgz#df46e867d0fc2aec66a34662b406a9ccafff5b0f"
 
@@ -2153,7 +2135,7 @@ continuable-cache@^0.3.1:
   version "0.3.1"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/continuable-cache/-/continuable-cache-0.3.1.tgz?dl=https://registry.yarnpkg.com/continuable-cache/-/continuable-cache-0.3.1.tgz#bd727a7faed77e71ff3985ac93351a912733ad0f"
 
-convert-source-map@^1.1.0, convert-source-map@^1.5.0:
+convert-source-map@^1.1.0, convert-source-map@^1.5.1:
   version "1.5.1"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/convert-source-map/-/convert-source-map-1.5.1.tgz?dl=https://registry.yarnpkg.com/convert-source-map/-/convert-source-map-1.5.1.tgz#b8278097b9bc229365de5c62cf5fcaed8b5599e5"
 
@@ -2252,21 +2234,19 @@ dag-map@^2.0.2:
   version "2.0.2"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/dag-map/-/dag-map-2.0.2.tgz?dl=https://registry.yarnpkg.com/dag-map/-/dag-map-2.0.2.tgz#9714b472de82a1843de2fba9b6876938cab44c68"
 
-<<<<<<< HEAD
 dashdash@^1.12.0:
   version "1.14.1"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/dashdash/-/dashdash-1.14.1.tgz?dl=https://registry.yarnpkg.com/dashdash/-/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
   dependencies:
     assert-plus "^1.0.0"
-=======
+
 date-time@^2.1.0:
   version "2.1.0"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/date-time/-/date-time-2.1.0.tgz?dl=https://registry.yarnpkg.com/date-time/-/date-time-2.1.0.tgz#0286d1b4c769633b3ca13e1e62558d2dbdc2eba2"
   dependencies:
     time-zone "^1.0.0"
->>>>>>> wip light table
 
-debug@2.6.9, debug@^2.1.0, debug@^2.1.1, debug@^2.1.2, debug@^2.1.3, debug@^2.2.0, debug@^2.3.3, debug@^2.4.0, debug@^2.6.8:
+debug@2.6.9, debug@^2.1.0, debug@^2.1.1, debug@^2.1.2, debug@^2.1.3, debug@^2.2.0, debug@^2.3.3, debug@^2.4.0, debug@^2.6.8, debug@^2.6.9:
   version "2.6.9"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/debug/-/debug-2.6.9.tgz?dl=https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
   dependencies:
@@ -2421,17 +2401,15 @@ dot-prop@^4.1.0:
   dependencies:
     is-obj "^1.0.0"
 
-<<<<<<< HEAD
+duplexer3@^0.1.4:
+  version "0.1.4"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/duplexer3/-/duplexer3-0.1.4.tgz?dl=https://registry.yarnpkg.com/duplexer3/-/duplexer3-0.1.4.tgz#ee01dd1cac0ed3cbc7fdbea37dc0a8f1ce002ce2"
+
 ecc-jsbn@~0.1.1:
   version "0.1.1"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/ecc-jsbn/-/ecc-jsbn-0.1.1.tgz?dl=https://registry.yarnpkg.com/ecc-jsbn/-/ecc-jsbn-0.1.1.tgz#0fc73a9ed5f0d53c38193398523ef7e543777505"
   dependencies:
     jsbn "~0.1.0"
-=======
-duplexer3@^0.1.4:
-  version "0.1.4"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/duplexer3/-/duplexer3-0.1.4.tgz?dl=https://registry.yarnpkg.com/duplexer3/-/duplexer3-0.1.4.tgz#ee01dd1cac0ed3cbc7fdbea37dc0a8f1ce002ce2"
->>>>>>> wip light table
 
 editions@^1.1.1:
   version "1.3.4"
@@ -2442,8 +2420,8 @@ ee-first@1.1.1:
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/ee-first/-/ee-first-1.1.1.tgz?dl=https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
 electron-to-chromium@^1.3.30:
-  version "1.3.42"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/electron-to-chromium/-/electron-to-chromium-1.3.42.tgz?dl=https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.42.tgz#95c33bf01d0cc405556aec899fe61fd4d76ea0f9"
+  version "1.3.44"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/electron-to-chromium/-/electron-to-chromium-1.3.44.tgz?dl=https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.44.tgz#ef6b150a60d523082388cadad88085ecd2fd4684"
 
 element-resize-detector@1.1.4:
   version "1.1.4"
@@ -2465,11 +2443,11 @@ ember-ast-helpers@0.3.5:
     "@glimmer/syntax" "^0.27.0"
 
 ember-cli-app-version@^3.0.0:
-  version "3.1.3"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/ember-cli-app-version/-/ember-cli-app-version-3.1.3.tgz?dl=https://registry.yarnpkg.com/ember-cli-app-version/-/ember-cli-app-version-3.1.3.tgz#26d25f5e653ff0106f0b39da6d75518ba8ed282d"
+  version "3.2.0"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/ember-cli-app-version/-/ember-cli-app-version-3.2.0.tgz?dl=https://registry.yarnpkg.com/ember-cli-app-version/-/ember-cli-app-version-3.2.0.tgz#7b9ad0e1b63ae0518648356ee24c703e922bc26e"
   dependencies:
-    ember-cli-babel "^6.8.0"
-    git-repo-version "^1.0.0"
+    ember-cli-babel "^6.12.0"
+    git-repo-version "^1.0.2"
 
 ember-cli-babel@^5.1.6, ember-cli-babel@^5.1.7:
   version "5.2.8"
@@ -2481,7 +2459,7 @@ ember-cli-babel@^5.1.6, ember-cli-babel@^5.1.7:
     ember-cli-version-checker "^1.0.2"
     resolve "^1.1.2"
 
-ember-cli-babel@^6.0.0, ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.0.0-beta.7, ember-cli-babel@^6.10.0, ember-cli-babel@^6.11.0, ember-cli-babel@^6.3.0, ember-cli-babel@^6.6.0, ember-cli-babel@^6.8.0, ember-cli-babel@^6.8.1, ember-cli-babel@^6.8.2, ember-cli-babel@^6.9.0:
+ember-cli-babel@^6.0.0, ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.0.0-beta.7, ember-cli-babel@^6.10.0, ember-cli-babel@^6.11.0, ember-cli-babel@^6.12.0, ember-cli-babel@^6.3.0, ember-cli-babel@^6.6.0, ember-cli-babel@^6.8.0, ember-cli-babel@^6.8.1, ember-cli-babel@^6.8.2, ember-cli-babel@^6.9.0:
   version "6.12.0"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/ember-cli-babel/-/ember-cli-babel-6.12.0.tgz?dl=https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-6.12.0.tgz#3adcdbe1278da1fcd0b9038f1360cb4ac5d4414c"
   dependencies:
@@ -3333,8 +3311,8 @@ event-emitter@~0.3.5:
     es5-ext "~0.10.14"
 
 eventemitter3@^3.0.0:
-  version "3.0.1"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/eventemitter3/-/eventemitter3-3.0.1.tgz?dl=https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-3.0.1.tgz#4ce66c3fc5b5a6b9f2245e359e1938f1ab10f960"
+  version "3.1.0"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/eventemitter3/-/eventemitter3-3.1.0.tgz?dl=https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-3.1.0.tgz#090b4d6cdbd645ed10bf750d4b5407942d7ba163"
 
 events-to-array@^1.0.1:
   version "1.1.2"
@@ -3818,8 +3796,8 @@ fs.realpath@^1.0.0:
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/fs.realpath/-/fs.realpath-1.0.0.tgz?dl=https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
 
 fsevents@^1.0.0, fsevents@^1.1.1:
-  version "1.2.0"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/fsevents/-/fsevents-1.2.0.tgz?dl=https://registry.yarnpkg.com/fsevents/-/fsevents-1.2.0.tgz#e11a5ff285471e4cc43ab9cd09bb7986c565dcdc"
+  version "1.2.2"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/fsevents/-/fsevents-1.2.2.tgz?dl=https://registry.yarnpkg.com/fsevents/-/fsevents-1.2.2.tgz#4f598f0f69b273188ef4a62ca4e9e08ace314bbf"
   dependencies:
     nan "^2.9.2"
     node-pre-gyp "^0.9.0"
@@ -3892,7 +3870,7 @@ git-repo-info@^1.1.2, git-repo-info@^1.4.1:
   version "1.4.1"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/git-repo-info/-/git-repo-info-1.4.1.tgz?dl=https://registry.yarnpkg.com/git-repo-info/-/git-repo-info-1.4.1.tgz#2a072823254aaf62fcf0766007d7b6651bd41943"
 
-git-repo-version@^1.0.0:
+git-repo-version@^1.0.2:
   version "1.0.2"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/git-repo-version/-/git-repo-version-1.0.2.tgz?dl=https://registry.yarnpkg.com/git-repo-version/-/git-repo-version-1.0.2.tgz#2c8e9bee5d970cafc0dd58480f9dc56d9afe8e4f"
   dependencies:
@@ -3972,8 +3950,8 @@ global-prefix@^1.0.1:
     which "^1.2.14"
 
 globals@^11.0.1:
-  version "11.4.0"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/globals/-/globals-11.4.0.tgz?dl=https://registry.yarnpkg.com/globals/-/globals-11.4.0.tgz#b85c793349561c16076a3c13549238a27945f1bc"
+  version "11.5.0"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/globals/-/globals-11.5.0.tgz?dl=https://registry.yarnpkg.com/globals/-/globals-11.5.0.tgz#6bc840de6771173b191f13d3a9c94d441ee92642"
 
 globals@^6.4.0:
   version "6.4.1"
@@ -3994,7 +3972,6 @@ globby@^5.0.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
-<<<<<<< HEAD
 globule@^1.0.0:
   version "1.2.0"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/globule/-/globule-1.2.0.tgz?dl=https://registry.yarnpkg.com/globule/-/globule-1.2.0.tgz#1dc49c6822dd9e8a2fa00ba2a295006e8664bd09"
@@ -4003,8 +3980,6 @@ globule@^1.0.0:
     lodash "~4.17.4"
     minimatch "~3.0.2"
 
-graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.3, graceful-fs@^4.1.6, graceful-fs@^4.1.9:
-=======
 got@^8.0.1:
   version "8.3.0"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/got/-/got-8.3.0.tgz?dl=https://registry.yarnpkg.com/got/-/got-8.3.0.tgz#6ba26e75f8a6cc4c6b3eb1fe7ce4fec7abac8533"
@@ -4028,7 +4003,6 @@ got@^8.0.1:
     url-to-options "^1.0.1"
 
 graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.3, graceful-fs@^4.1.4, graceful-fs@^4.1.6, graceful-fs@^4.1.9:
->>>>>>> wip light table
   version "4.1.11"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/graceful-fs/-/graceful-fs-4.1.11.tgz?dl=https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
@@ -4194,7 +4168,6 @@ heimdalljs@^0.3.0:
   dependencies:
     rsvp "~3.2.1"
 
-<<<<<<< HEAD
 hoek@2.x.x:
   version "2.16.3"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/hoek/-/hoek-2.16.3.tgz?dl=https://registry.yarnpkg.com/hoek/-/hoek-2.16.3.tgz#20bb7403d3cea398e91dc4710a8ff1b8274a25ed"
@@ -4202,14 +4175,13 @@ hoek@2.x.x:
 hoek@4.x.x:
   version "4.2.1"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/hoek/-/hoek-4.2.1.tgz?dl=https://registry.yarnpkg.com/hoek/-/hoek-4.2.1.tgz#9634502aa12c445dd5a7c5734b572bb8738aacbb"
-=======
+
 home-or-tmp@^1.0.0:
   version "1.0.0"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/home-or-tmp/-/home-or-tmp-1.0.0.tgz?dl=https://registry.yarnpkg.com/home-or-tmp/-/home-or-tmp-1.0.0.tgz#4b9f1e40800c3e50c6c27f781676afcce71f3985"
   dependencies:
     os-tmpdir "^1.0.1"
     user-home "^1.1.1"
->>>>>>> wip light table
 
 home-or-tmp@^2.0.0:
   version "2.0.0"
@@ -4251,8 +4223,8 @@ http-errors@~1.6.2:
     statuses ">= 1.4.0 < 2"
 
 http-parser-js@>=0.4.0:
-  version "0.4.11"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/http-parser-js/-/http-parser-js-0.4.11.tgz?dl=https://registry.yarnpkg.com/http-parser-js/-/http-parser-js-0.4.11.tgz#5b720849c650903c27e521633d94696ee95f3529"
+  version "0.4.12"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/http-parser-js/-/http-parser-js-0.4.12.tgz?dl=https://registry.yarnpkg.com/http-parser-js/-/http-parser-js-0.4.12.tgz#b9cfbf4a2cf26f0fc34b10ca1489a27771e3474f"
 
 http-proxy@^1.13.1, http-proxy@^1.9.0:
   version "1.17.0"
@@ -4295,8 +4267,8 @@ ignore-walk@^3.0.1:
     minimatch "^3.0.4"
 
 ignore@^3.3.3:
-  version "3.3.7"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/ignore/-/ignore-3.3.7.tgz?dl=https://registry.yarnpkg.com/ignore/-/ignore-3.3.7.tgz#612289bfb3c220e186a58118618d5be8c1bab021"
+  version "3.3.8"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/ignore/-/ignore-3.3.8.tgz?dl=https://registry.yarnpkg.com/ignore/-/ignore-3.3.8.tgz#3f8e9c35d38708a3a7e0e9abb6c73e7ee7707b2b"
 
 imurmurhash@^0.1.4:
   version "0.1.4"
@@ -4532,7 +4504,12 @@ is-glob@^3.1.0:
   dependencies:
     is-extglob "^2.1.0"
 
-<<<<<<< HEAD
+is-integer@^1.0.4:
+  version "1.0.7"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/is-integer/-/is-integer-1.0.7.tgz?dl=https://registry.yarnpkg.com/is-integer/-/is-integer-1.0.7.tgz#6bde81aacddf78b659b6629d629cadc51a886d5c"
+  dependencies:
+    is-finite "^1.0.0"
+
 is-my-ip-valid@^1.0.0:
   version "1.0.0"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/is-my-ip-valid/-/is-my-ip-valid-1.0.0.tgz?dl=https://registry.yarnpkg.com/is-my-ip-valid/-/is-my-ip-valid-1.0.0.tgz#7b351b8e8edd4d3995d4d066680e664d94696824"
@@ -4546,13 +4523,6 @@ is-my-json-valid@^2.12.4:
     is-my-ip-valid "^1.0.0"
     jsonpointer "^4.0.0"
     xtend "^4.0.0"
-=======
-is-integer@^1.0.4:
-  version "1.0.7"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/is-integer/-/is-integer-1.0.7.tgz?dl=https://registry.yarnpkg.com/is-integer/-/is-integer-1.0.7.tgz#6bde81aacddf78b659b6629d629cadc51a886d5c"
-  dependencies:
-    is-finite "^1.0.0"
->>>>>>> wip light table
 
 is-number@^2.1.0:
   version "2.1.0"
@@ -4622,17 +4592,15 @@ is-promise@^2.1.0:
   version "2.1.0"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/is-promise/-/is-promise-2.1.0.tgz?dl=https://registry.yarnpkg.com/is-promise/-/is-promise-2.1.0.tgz#79a2a9ece7f096e80f36d2b2f3bc16c1ff4bf3fa"
 
-<<<<<<< HEAD
 is-property@^1.0.0:
   version "1.0.2"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/is-property/-/is-property-1.0.2.tgz?dl=https://registry.yarnpkg.com/is-property/-/is-property-1.0.2.tgz#57fe1c4e48474edd65b09911f26b1cd4095dda84"
-=======
+
 is-reference@^1.1.0:
   version "1.1.0"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/is-reference/-/is-reference-1.1.0.tgz?dl=https://registry.yarnpkg.com/is-reference/-/is-reference-1.1.0.tgz#50e6ef3f64c361e2c53c0416cdc9420037f2685b"
   dependencies:
     "@types/estree" "0.0.38"
->>>>>>> wip light table
 
 is-resolvable@^1.0.0:
   version "1.1.0"
@@ -4782,15 +4750,13 @@ json-stable-stringify@^1.0.0, json-stable-stringify@^1.0.1:
   dependencies:
     jsonify "~0.0.0"
 
-<<<<<<< HEAD
 json-stringify-safe@~5.0.1:
   version "5.0.1"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz?dl=https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
-=======
+
 json5@^0.4.0:
   version "0.4.0"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/json5/-/json5-0.4.0.tgz?dl=https://registry.yarnpkg.com/json5/-/json5-0.4.0.tgz#054352e4c4c80c86c0923877d449de176a732c8d"
->>>>>>> wip light table
 
 json5@^0.5.1:
   version "0.5.1"
@@ -4812,7 +4778,6 @@ jsonify@~0.0.0:
   version "0.0.0"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/jsonify/-/jsonify-0.0.0.tgz?dl=https://registry.yarnpkg.com/jsonify/-/jsonify-0.0.0.tgz#2c74b6ee41d93ca51b7b5aaee8f503631d252a73"
 
-<<<<<<< HEAD
 jsonpointer@^4.0.0:
   version "4.0.1"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/jsonpointer/-/jsonpointer-4.0.1.tgz?dl=https://registry.yarnpkg.com/jsonpointer/-/jsonpointer-4.0.1.tgz#4fd92cb34e0e9db3c89c8622ecf51f9b978c6cb9"
@@ -4825,13 +4790,12 @@ jsprim@^1.2.2:
     extsprintf "1.3.0"
     json-schema "0.2.3"
     verror "1.10.0"
-=======
+
 keyv@3.0.0:
   version "3.0.0"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/keyv/-/keyv-3.0.0.tgz?dl=https://registry.yarnpkg.com/keyv/-/keyv-3.0.0.tgz#44923ba39e68b12a7cec7df6c3268c031f2ef373"
   dependencies:
     json-buffer "3.0.0"
->>>>>>> wip light table
 
 kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.2.0:
   version "3.2.2"
@@ -5254,21 +5218,11 @@ lodash@3.8.0:
   version "3.8.0"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/lodash/-/lodash-3.8.0.tgz?dl=https://registry.yarnpkg.com/lodash/-/lodash-3.8.0.tgz#376eb98bdcd9382a9365c33c4cb8250de1325b91"
 
-<<<<<<< HEAD
-lodash@^4.0.0, lodash@~4.17.4:
-  version "4.17.10"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/lodash/-/lodash-4.17.10.tgz?dl=https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
-=======
 lodash@^3.10.0, lodash@^3.10.1, lodash@^3.9.3:
   version "3.10.1"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/lodash/-/lodash-3.10.1.tgz?dl=https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
->>>>>>> wip light table
 
-lodash@^4.14.0, lodash@^4.17.4, lodash@^4.3.0:
-  version "4.17.5"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/lodash/-/lodash-4.17.5.tgz?dl=https://registry.yarnpkg.com/lodash/-/lodash-4.17.5.tgz#99a92d65c0272debe8c96b6057bc8fbfa3bed511"
-
-lodash@^4.6.1:
+lodash@^4.0.0, lodash@^4.14.0, lodash@^4.17.4, lodash@^4.3.0, lodash@^4.6.1, lodash@~4.17.4:
   version "4.17.10"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/lodash/-/lodash-4.17.10.tgz?dl=https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 
@@ -5494,15 +5448,11 @@ mimic-fn@^1.0.0:
   version "1.2.0"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/mimic-fn/-/mimic-fn-1.2.0.tgz?dl=https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-1.2.0.tgz#820c86a39334640e99516928bd03fca88057d022"
 
-<<<<<<< HEAD
-"minimatch@2 || 3", minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.4, minimatch@~3.0.2:
-=======
 mimic-response@^1.0.0:
   version "1.0.0"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/mimic-response/-/mimic-response-1.0.0.tgz?dl=https://registry.yarnpkg.com/mimic-response/-/mimic-response-1.0.0.tgz#df3d3652a73fded6b9b0b24146e6fd052353458e"
 
-"minimatch@2 || 3", minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.4:
->>>>>>> wip light table
+"minimatch@2 || 3", minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.4, minimatch@~3.0.2:
   version "3.0.4"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/minimatch/-/minimatch-3.0.4.tgz?dl=https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
   dependencies:
@@ -5641,7 +5591,13 @@ no-case@^2.2.0:
   dependencies:
     lower-case "^1.1.1"
 
-<<<<<<< HEAD
+node-fetch@^1.3.3:
+  version "1.7.3"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/node-fetch/-/node-fetch-1.7.3.tgz?dl=https://registry.yarnpkg.com/node-fetch/-/node-fetch-1.7.3.tgz#980f6f72d85211a5347c6b2bc18c5b84c3eb47ef"
+  dependencies:
+    encoding "^0.1.11"
+    is-stream "^1.0.1"
+
 node-gyp@^3.3.1:
   version "3.6.2"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/node-gyp/-/node-gyp-3.6.2.tgz?dl=https://registry.yarnpkg.com/node-gyp/-/node-gyp-3.6.2.tgz#9bfbe54562286284838e750eac05295853fa1c60"
@@ -5659,14 +5615,6 @@ node-gyp@^3.3.1:
     semver "~5.3.0"
     tar "^2.0.0"
     which "1"
-=======
-node-fetch@^1.3.3:
-  version "1.7.3"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/node-fetch/-/node-fetch-1.7.3.tgz?dl=https://registry.yarnpkg.com/node-fetch/-/node-fetch-1.7.3.tgz#980f6f72d85211a5347c6b2bc18c5b84c3eb47ef"
-  dependencies:
-    encoding "^0.1.11"
-    is-stream "^1.0.1"
->>>>>>> wip light table
 
 node-int64@^0.4.0:
   version "0.4.0"
@@ -5969,8 +5917,8 @@ p-try@^1.0.0:
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/p-try/-/p-try-1.0.0.tgz?dl=https://registry.yarnpkg.com/p-try/-/p-try-1.0.0.tgz#cbc79cdbaf8fd4228e13f621f2b1a237c1b207b3"
 
 papaparse@^4.3.6:
-  version "4.3.7"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/papaparse/-/papaparse-4.3.7.tgz?dl=https://registry.yarnpkg.com/papaparse/-/papaparse-4.3.7.tgz#ed1e7183320d1e0839dfe9f7186185cfc5097b8d"
+  version "4.4.0"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/papaparse/-/papaparse-4.4.0.tgz?dl=https://registry.yarnpkg.com/papaparse/-/papaparse-4.4.0.tgz#6bcdbda80873e00cfb0bdcd7a4571c72a9a40168"
 
 parse-glob@^3.0.4:
   version "3.0.4"
@@ -6142,7 +6090,7 @@ printf@^0.2.3:
   version "0.2.5"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/printf/-/printf-0.2.5.tgz?dl=https://registry.yarnpkg.com/printf/-/printf-0.2.5.tgz#c438ca2ca33e3927671db4ab69c0e52f936a4f0f"
 
-private@^0.1.6, private@^0.1.7, private@~0.1.5:
+private@^0.1.6, private@^0.1.8, private@~0.1.5:
   version "0.1.8"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/private/-/private-0.1.8.tgz?dl=https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
 
@@ -6177,10 +6125,13 @@ pseudomap@^1.0.2:
   version "1.0.2"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/pseudomap/-/pseudomap-1.0.2.tgz?dl=https://registry.yarnpkg.com/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
 
-<<<<<<< HEAD
 punycode@^1.4.1:
   version "1.4.1"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/punycode/-/punycode-1.4.1.tgz?dl=https://registry.yarnpkg.com/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
+
+q@^1.1.2:
+  version "1.5.1"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/q/-/q-1.5.1.tgz?dl=https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
 
 qs@6.5.1, qs@^6.4.0, qs@~6.5.1:
   version "6.5.1"
@@ -6189,14 +6140,6 @@ qs@6.5.1, qs@^6.4.0, qs@~6.5.1:
 qs@~6.3.0:
   version "6.3.2"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/qs/-/qs-6.3.2.tgz?dl=https://registry.yarnpkg.com/qs/-/qs-6.3.2.tgz#e75bd5f6e268122a2a0e0bda630b2550c166502c"
-=======
-q@^1.1.2:
-  version "1.5.1"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/q/-/q-1.5.1.tgz?dl=https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
-
-qs@6.5.1, qs@^6.4.0:
-  version "6.5.1"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/qs/-/qs-6.5.1.tgz?dl=https://registry.yarnpkg.com/qs/-/qs-6.5.1.tgz#349cdf6eef89ec45c12d7d5eb3fc0c870343a6d8"
 
 query-string@^5.0.1:
   version "5.1.1"
@@ -6205,7 +6148,6 @@ query-string@^5.0.1:
     decode-uri-component "^0.2.0"
     object-assign "^4.1.0"
     strict-uri-encode "^1.0.0"
->>>>>>> wip light table
 
 quick-temp@^0.1.2, quick-temp@^0.1.3, quick-temp@^0.1.5, quick-temp@^0.1.8:
   version "0.1.8"
@@ -6278,11 +6220,7 @@ read-pkg@^1.0.0:
     normalize-package-data "^2.3.2"
     path-type "^1.0.0"
 
-<<<<<<< HEAD
-readable-stream@^2, readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.6, readable-stream@^2.2.2:
-=======
-readable-stream@^2, readable-stream@^2.0.0, readable-stream@^2.0.2, readable-stream@^2.0.6, readable-stream@^2.2.2:
->>>>>>> wip light table
+readable-stream@^2, readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.6, readable-stream@^2.2.2:
   version "2.3.6"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/readable-stream/-/readable-stream-2.3.6.tgz?dl=https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.6.tgz#b11c27d88b8ff1fbe070643cf94b0c79ae1b0aaf"
   dependencies:
@@ -6518,15 +6456,13 @@ require-folder-tree@^1.4.5:
   dependencies:
     lodash "3.8.0"
 
-<<<<<<< HEAD
 require-main-filename@^1.0.1:
   version "1.0.1"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/require-main-filename/-/require-main-filename-1.0.1.tgz?dl=https://registry.yarnpkg.com/require-main-filename/-/require-main-filename-1.0.1.tgz#97f717b69d48784f5f526a6c5aa8ffdda055a4d1"
-=======
+
 require-relative@^0.8.7:
   version "0.8.7"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/require-relative/-/require-relative-0.8.7.tgz?dl=https://registry.yarnpkg.com/require-relative/-/require-relative-0.8.7.tgz#7999539fc9e047a37928fa196f8e1563dabd36de"
->>>>>>> wip light table
 
 require-uncached@^1.0.3:
   version "1.0.3"
@@ -6596,11 +6532,7 @@ right-align@^0.1.1:
   dependencies:
     align-text "^0.1.1"
 
-<<<<<<< HEAD
-rimraf@2, rimraf@^2.2.8, rimraf@^2.3.4, rimraf@^2.4.3, rimraf@^2.4.4, rimraf@^2.5.3, rimraf@^2.5.4, rimraf@^2.6.1:
-=======
-rimraf@^2.2.8, rimraf@^2.3.2, rimraf@^2.3.4, rimraf@^2.4.3, rimraf@^2.4.4, rimraf@^2.5.3, rimraf@^2.5.4, rimraf@^2.6.1:
->>>>>>> wip light table
+rimraf@2, rimraf@^2.2.8, rimraf@^2.3.2, rimraf@^2.3.4, rimraf@^2.4.3, rimraf@^2.4.4, rimraf@^2.5.3, rimraf@^2.5.4, rimraf@^2.6.1:
   version "2.6.2"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/rimraf/-/rimraf-2.6.2.tgz?dl=https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.2.tgz#2ed8150d24a16ea8651e6d6ef0f47c4158ce7a36"
   dependencies:
@@ -6671,11 +6603,11 @@ rx@^4.1.0:
   version "4.1.0"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/rx/-/rx-4.1.0.tgz?dl=https://registry.yarnpkg.com/rx/-/rx-4.1.0.tgz#a5f13ff79ef3b740fe30aa803fb09f98805d4782"
 
-safe-buffer@5.1.1, safe-buffer@^5.1.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
+safe-buffer@5.1.1:
   version "5.1.1"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/safe-buffer/-/safe-buffer-5.1.1.tgz?dl=https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
 
-safe-buffer@^5.0.1:
+safe-buffer@^5.0.1, safe-buffer@^5.1.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/safe-buffer/-/safe-buffer-5.1.2.tgz?dl=https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
 
@@ -7065,7 +6997,6 @@ sri-toolbox@^0.2.0:
   version "0.2.0"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/sri-toolbox/-/sri-toolbox-0.2.0.tgz?dl=https://registry.yarnpkg.com/sri-toolbox/-/sri-toolbox-0.2.0.tgz#a7fea5c3fde55e675cf1c8c06f3ebb5c2935835e"
 
-<<<<<<< HEAD
 sshpk@^1.7.0:
   version "1.14.1"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/sshpk/-/sshpk-1.14.1.tgz?dl=https://registry.yarnpkg.com/sshpk/-/sshpk-1.14.1.tgz#130f5975eddad963f1d56f92b9ac6c51fa9f83eb"
@@ -7079,11 +7010,10 @@ sshpk@^1.7.0:
     ecc-jsbn "~0.1.1"
     jsbn "~0.1.0"
     tweetnacl "~0.14.0"
-=======
+
 stable@~0.1.3:
-  version "0.1.7"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/stable/-/stable-0.1.7.tgz?dl=https://registry.yarnpkg.com/stable/-/stable-0.1.7.tgz#06e1e4213460252e4f20da89a32cb4a0dbe5f2b2"
->>>>>>> wip light table
+  version "0.1.8"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/stable/-/stable-0.1.8.tgz?dl=https://registry.yarnpkg.com/stable/-/stable-0.1.8.tgz#836eb3c8382fe2936feaf544631017ce7d47a3cf"
 
 static-extend@^0.1.1:
   version "0.1.2"
@@ -7100,17 +7030,15 @@ statuses@~1.4.0:
   version "1.4.0"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/statuses/-/statuses-1.4.0.tgz?dl=https://registry.yarnpkg.com/statuses/-/statuses-1.4.0.tgz#bb73d446da2796106efcc1b601a253d6c46bd087"
 
-<<<<<<< HEAD
 stdout-stream@^1.4.0:
   version "1.4.0"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/stdout-stream/-/stdout-stream-1.4.0.tgz?dl=https://registry.yarnpkg.com/stdout-stream/-/stdout-stream-1.4.0.tgz#a2c7c8587e54d9427ea9edb3ac3f2cd522df378b"
   dependencies:
     readable-stream "^2.0.1"
-=======
+
 strict-uri-encode@^1.0.0:
   version "1.1.0"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz?dl=https://registry.yarnpkg.com/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz#279b225df1d582b1f54e65addd4352e18faa0713"
->>>>>>> wip light table
 
 string-template@~0.2.1:
   version "0.2.1"
@@ -7141,11 +7069,6 @@ string_decoder@~1.1.1:
   dependencies:
     safe-buffer "~5.1.0"
 
-<<<<<<< HEAD
-stringstream@~0.0.4, stringstream@~0.0.5:
-  version "0.0.5"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/stringstream/-/stringstream-0.0.5.tgz?dl=https://registry.yarnpkg.com/stringstream/-/stringstream-0.0.5.tgz#4e484cd4de5a0bbbee18e46307710a8a81621878"
-=======
 stringmap@~0.2.2:
   version "0.2.2"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/stringmap/-/stringmap-0.2.2.tgz?dl=https://registry.yarnpkg.com/stringmap/-/stringmap-0.2.2.tgz#556c137b258f942b8776f5b2ef582aa069d7d1b1"
@@ -7153,7 +7076,10 @@ stringmap@~0.2.2:
 stringset@~0.2.1:
   version "0.2.1"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/stringset/-/stringset-0.2.1.tgz?dl=https://registry.yarnpkg.com/stringset/-/stringset-0.2.1.tgz#ef259c4e349344377fcd1c913dd2e848c9c042b5"
->>>>>>> wip light table
+
+stringstream@~0.0.4, stringstream@~0.0.5:
+  version "0.0.5"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/stringstream/-/stringstream-0.0.5.tgz?dl=https://registry.yarnpkg.com/stringstream/-/stringstream-0.0.5.tgz#4e484cd4de5a0bbbee18e46307710a8a81621878"
 
 strip-ansi@^0.3.0:
   version "0.3.0"
@@ -7283,8 +7209,8 @@ temp@0.8.3:
     rimraf "~2.2.6"
 
 testem@^2.0.0:
-  version "2.2.1"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/testem/-/testem-2.2.1.tgz?dl=https://registry.yarnpkg.com/testem/-/testem-2.2.1.tgz#7bcda44eeb34287d918b3c8b9c6863d26a616557"
+  version "2.4.0"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/testem/-/testem-2.4.0.tgz?dl=https://registry.yarnpkg.com/testem/-/testem-2.4.0.tgz#c74e9bbc5269dc102dad6b95979888c397c6e712"
   dependencies:
     backbone "^1.1.2"
     bluebird "^3.4.6"
@@ -7421,12 +7347,19 @@ trim-right@^1.0.0, trim-right@^1.0.1:
   version "1.0.1"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/trim-right/-/trim-right-1.0.1.tgz?dl=https://registry.yarnpkg.com/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
 
-<<<<<<< HEAD
 "true-case-path@^1.0.2":
   version "1.0.2"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/true-case-path/-/true-case-path-1.0.2.tgz?dl=https://registry.yarnpkg.com/true-case-path/-/true-case-path-1.0.2.tgz#7ec91130924766c7f573be3020c34f8fdfd00d62"
   dependencies:
     glob "^6.0.4"
+
+try-resolve@^1.0.0:
+  version "1.0.1"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/try-resolve/-/try-resolve-1.0.1.tgz?dl=https://registry.yarnpkg.com/try-resolve/-/try-resolve-1.0.1.tgz#cfde6fabd72d63e5797cfaab873abbe8e700e912"
+
+tryor@~0.1.2:
+  version "0.1.2"
+  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/tryor/-/tryor-0.1.2.tgz?dl=https://registry.yarnpkg.com/tryor/-/tryor-0.1.2.tgz#8145e4ca7caff40acde3ccf946e8b8bb75b4172b"
 
 tunnel-agent@^0.6.0:
   version "0.6.0"
@@ -7441,15 +7374,6 @@ tunnel-agent@~0.4.1:
 tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/tweetnacl/-/tweetnacl-0.14.5.tgz?dl=https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
-=======
-try-resolve@^1.0.0:
-  version "1.0.1"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/try-resolve/-/try-resolve-1.0.1.tgz?dl=https://registry.yarnpkg.com/try-resolve/-/try-resolve-1.0.1.tgz#cfde6fabd72d63e5797cfaab873abbe8e700e912"
-
-tryor@~0.1.2:
-  version "0.1.2"
-  resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/tryor/-/tryor-0.1.2.tgz?dl=https://registry.yarnpkg.com/tryor/-/tryor-0.1.2.tgz#8145e4ca7caff40acde3ccf946e8b8bb75b4172b"
->>>>>>> wip light table
 
 type-check@~0.3.2:
   version "0.3.2"
@@ -7767,11 +7691,7 @@ xtend@^4.0.0, xtend@~4.0.0:
   version "4.0.1"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/xtend/-/xtend-4.0.1.tgz?dl=https://registry.yarnpkg.com/xtend/-/xtend-4.0.1.tgz#a5c6d532be656e23db820efb943a1f04998d63af"
 
-<<<<<<< HEAD
-y18n@^3.2.1:
-=======
-y18n@^3.2.0:
->>>>>>> wip light table
+y18n@^3.2.0, y18n@^3.2.1:
   version "3.2.1"
   resolved "https://savoartifactory.jfrog.io/savoartifactory/api/npm/npm-remote/y18n/-/y18n-3.2.1.tgz?dl=https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
 

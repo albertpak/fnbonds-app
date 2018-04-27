@@ -7,6 +7,8 @@ export default Controller.extend({
   csvFileUploaded(csvFile) {
     const self = this;
 
+    console.table(this.get('csvData'));
+
     PapaParse.parse(csvFile, {
       quoteChar: '"',
       dynamicTyping: true,

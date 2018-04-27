@@ -1,44 +1,12 @@
-{{log 'model' model}}
-
 {{#light-table table height='65vh' as |t|}}
 
-{{!-- In order for `fa-sort-asc` and `fa-sort-desc` icons to work, you need to have ember-font-awesome installed or manually include the font-awesome assets, e.g. via a CDN. --}} {{t.head onColumnClick=(action 'onColumnClick') iconSortable='fa fa-sort' iconAscending='fa fa-sort-asc' iconDescending='fa fa-sort-desc' fixed=true }}
+  {{#t.body canSelect=false scrollTo=scrollTo scrollToRow=scrollToRow onScroll=(action (mut currentScrollOffset)) onScrolledToBottom=(action 'onScrolledToBottom') as |body| }}
+    {{#if isLoading}}
+      {{#body.loader}}
+        {{table-loader}}
+      {{/body.loader}}
+    {{/if}}
+  {{/t.body}}
 
-{{#t.body canSelect=false scrollTo=scrollTo scrollToRow=scrollToRow onScroll=(action (mut currentScrollOffset)) onScrolledToBottom=(action 'onScrolledToBottom') as |body| }}
-  {{#if isLoading}}
-    {{#body.loader}}
-      {{table-loader}}
-    {{/body.loader}}
-  {{/if}}
-{{/t.body}}
-
-{{#t.foot fixed=true as |columns|}}
-<tr>
-  <td colspan={{columns.length}}>
-    <form class="form-inline" onsubmit="return false;">
-      <div class="form-group">
-        <label>
-          Current Scroll Position:
-        </label>
-        <span class="form-control-static">
-          {{if (eq currentScrollOffset null) 'N/A' (concat currentScrollOffset 'px')}}
-        </span>
-      </div>
-
-      <div class="form-group">
-        <label for="scrollTo">
-          Scroll To:
-        </label>
-        {{one-way-input update=(action (mut scrollTo)) value=scrollTo class="form-control" name="scrollTo" type="number" min=0 step=10 }}
-      </div>
-
-      <div class="form-group">
-        <label for="scrollToRow">
-          Scroll To Row:
-        </label>
-        {{#one-way-select selectedValue options=table.visibleRows value=scrollToRow update=(action (mut scrollToRow)) class="form-control" name="scrollToRow" as |row| }} {{row.id}} - {{row.firstName}} {{row.lastName}} {{/one-way-select}}
-      </div>
-    </form>
-  </td>
-</tr>
-{{/t.foot}} {{/light-table}}
+  {{t.foot}}
+{{/light-table}}

@@ -4,7 +4,7 @@
       <h5>File upload</h5>
       {{file-upload csvFileUploaded=(action csvFileUploaded)}}
     {{else}}
-      {{investment-table csvData=csvData}}
+      {{csv-data-table model=csvData}}
     {{/unless}}
   </div>
 </div>
