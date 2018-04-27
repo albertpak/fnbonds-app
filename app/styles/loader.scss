@@ -1,0 +1,42 @@
+$color-background: #eaecfa;
+$color-loader: blue;
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 250px;
+  height: 50px;
+  color: $color-loader;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 900;
+  font-family: helvetica, arial, sans-serif;
+  line-height: 50px;
+  transform: translate(-50%,-50%);
+
+  &::before, &::after {
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: $color-loader;
+    content: "";
+    animation: load .7s infinite alternate ease-in-out;
+  }
+
+  &::before {
+    top: 0;
+  }
+
+  &::after {
+    bottom: 0;
+  }
+}
+
+@keyframes load {
+  0% { left: 0; width: 15px; height: 30px }
+  50% { width: 40px; height: 8px }
+  100% { left: 235px; width: 15px; height: 30px}
+}
